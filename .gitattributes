@@ -1,0 +1,10 @@
+# Force GitHub to detect Dart files
+*.dart linguist-detectable=true
+
+# Ignore generated Android/iOS/Web/Mac/Linux files from the language stats
+roamie/android/** linguist-vendored=true
+roamie/ios/** linguist-vendored=true
+roamie/macos/** linguist-vendored=true
+roamie/linux/** linguist-vendored=true
+roamie/windows/** linguist-vendored=true
+roamie/web/** linguist-vendored=true
